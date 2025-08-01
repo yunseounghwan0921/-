@@ -1,0 +1,36 @@
+        body {
+            background-color: black;
+        }
+        
+        button {
+            width: 100px;
+            height: 100px;
+            font-size: 1.5em;
+            border-radius: 16px;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .timer-btn {
+            width: 90px;
+            height: 60px;
+            font-size: 1.2em;
+            margin: 0 8px 20px 0;
+            background: #e67e22;
+        }
+        .timer-btn:hover {
+            background: #c95c00;
+        }
+        #final-score {
+            color: #e74c3c;
+        }
+
+        .center-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
